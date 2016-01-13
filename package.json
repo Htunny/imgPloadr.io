@@ -1,0 +1,25 @@
+{
+  "name": "imgploadr.io",
+  "version": "1.0.0",
+  "description": "image sharing website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "imgPloadr.io"
+  },
+  "author": "Andrew Htun",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.11.1",
+    "morgan": "^1.6.1"
+  }
+}
