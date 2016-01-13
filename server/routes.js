@@ -10,7 +10,7 @@ module.exports = function(app) {
     router.post('/images', image.create);
     router.post('/images/:image_id/like',
   image.like);
-    router.post('/images/image_id/comment',
+    router.post('/images/:image_id/comment',
   image.comment);
     app.use(router);
 };
