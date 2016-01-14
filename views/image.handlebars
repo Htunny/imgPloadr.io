@@ -5,7 +5,7 @@
     <div class="panel-body">
         <p>{{ image.description }}</p>
         <div class="col-md-12 text-center">
-            <img src="/public/upload/{{image.filename}}" class="img-thumbnail">
+            <img src="/public/upload/temp/{{image.filename}}" class="img-thumbnail">
         </div>
     </div>
     <div class="panel-footer">
@@ -63,7 +63,7 @@
             {{#each comments}}
             <li class="media">
                 <a class="pull-left" href="#">
-                    <img class="media-object img-circle" src="http://www.gravatar.com/avatar/{{gravatar}}?d=monsterid&s=45">
+                    <img class="media-object img-circle" src="http://www.gravatar.com/avatar/{{gravatar}}?d=monsterids=45">
                 </a>
                 <div class="media-body">
                     {{ comment }}
