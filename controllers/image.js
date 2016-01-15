@@ -119,7 +119,7 @@ remove: function(req, res) {
       function(err, image) {
         if (err) { throw err; }
 
-        fs.unlink(path.resolve('./public/upload/' + image.filename),
+        fs.unlink(path.resolve('./public/upload/temp/' + image.filename),
           function(err) {
             if (err) { throw err; }
 
